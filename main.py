@@ -1,14 +1,15 @@
-"""v1 terminal prototype: answers diabetes questions using only the documents in kb/."""
+"""v1 terminal prototype (Gemini): answers diabetes questions using only the documents in kb/."""
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from anthropic import Anthropic
+from google import genai
+from google.genai import types
 
 load_dotenv()
-client = Anthropic()
 
-# Model comes from .env (MODEL=...), with a fallback if it is not set.
-MODEL = os.getenv("MODEL", "claude-haiku-5-5")
+# The key and model both come from .env.
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+MODEL = os.getenv("MODEL", "gemini-3.8-flash")
 
 
 def load_kb():
@@ -43,9 +44,14 @@ ask one short question first.
 </documents>
 """
 
+CONFIG = types.GenerateContentConfig(
+    system_instruction=SYSTEM,
+    max_output_tokens=600,
+)
+
 
 def main():
-    history = []
+    history = []  # list of types.Content, alternating "user" and "model"
     total_in = 0
     total_out = 0
 
@@ -59,21 +65,23 @@ def main():
         if not user:
             continue
 
-        history.append({"role": "user", "content": user})
-        reply = client.messages.create(
+        history.append(types.Content(role="user", parts=[types.Part(text=user)]))
+        response = client.models.generate_content(
             model=MODEL,
-            max_tokens=600,
-            system=SYSTEM,
-            messages=history,
+            contents=history,
+            config=CONFIG,
         )
-        text = reply.content[0].text
-        history.append({"role": "assistant", "content": text})
+        text = response.text or "(no text returned, the reply may have been blocked)"
+        history.append(types.Content(role="model", parts=[types.Part(text=text)]))
 
-        total_in += reply.usage.input_tokens
-        total_out += reply.usage.output_tokens
+        usage = response.usage_metadata
+        tin = (usage.prompt_token_count or 0) if usage else 0
+        tout = (usage.candidates_token_count or 0) if usage else 0
+        total_in += tin
+        total_out += tout
 
         print(f"\nBot: {text}\n")
-        print(f"[tokens this turn: in {reply.usage.input_tokens}, out {reply.usage.output_tokens}]\n")
+        print(f"[tokens this turn: in {tin}, out {tout}]\n")
 
     print(f"\nSession total: in {total_in}, out {total_out}")
 
