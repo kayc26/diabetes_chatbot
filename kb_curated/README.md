@@ -22,10 +22,16 @@ the bot cites. The raw text extracted from the PDFs stays in `../kb/`.
 
 The type 1 guide's cover, table of contents, and terms page (p. 1–3) were left out.
 
+`team-faqs.txt` in `food/`, `high_blood_sugar/`, and `insulin_devices/` holds the team's FAQ
+answers, copied on 2026-11-06 from the shared "FAQs" Google Doc (`sources/FAQs.gdoc`). The bot is
+told to prefer these answers when they cover the question. When the Google Doc changes, update
+these files to match, and add any new questions to `../test_questions.txt`.
+
 ## Reviewing
 
 - Check that each file holds what its folder name promises, and move text that belongs elsewhere.
 - Fix PDF extraction breaks (words split across lines) where they change the meaning.
+- After any change, run `python run_tests.py` and read the report in `test_results/`.
 - Every safety topic (lows, highs, DKA, sick days) currently comes from a **type 1** guide.
   Many newly diagnosed adults have type 2, so a type 2 source is a known gap.
 

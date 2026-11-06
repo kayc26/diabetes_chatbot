@@ -30,11 +30,14 @@ KB_DIR = Path("kb_curated")
 # Folder name in kb_curated/ -> description the classifier uses to pick it.
 CATEGORIES = {
     "basics": "what diabetes is, how insulin and glucose work, what a new diagnosis means",
-    "low_blood_sugar": "hypoglycemia, low readings, shaky/sweaty/dizzy, the 15-15 rule, glucagon",
-    "high_blood_sugar": "hyperglycemia, high readings, thirst, ketones, DKA",
+    "low_blood_sugar": "hypoglycemia, low readings, shaky/sweaty/dizzy, confusion, fainting or "
+                       "passing out, the 15-15 rule, glucagon",
+    "high_blood_sugar": "hyperglycemia, high readings, thirst, frequent urination, blurry vision, "
+                        "nausea or vomiting, ketones, DKA",
     "monitoring": "checking blood glucose, meters, CGMs, target range, time in range, patterns",
     "insulin_devices": "types of insulin, pens, pumps, AID systems (general information, not doses)",
-    "food": "meals, carbs, the diabetes plate, portions, snacks, what to eat or drink",
+    "food": "meals, carbs, the diabetes plate, portions, snacks, hunger, protein, eating on a budget, "
+            "what to eat or drink, protein shakes, supplements",
     "sweeteners_and_liver": "sugar substitutes, artificial sweeteners, eating for liver health",
     "activity": "exercise, physical activity, staying safe while active",
     "daily_life": "sick days, stress, sleep, work, school, travel, insulin storage",
@@ -46,8 +49,11 @@ with a new diabetes diagnosis. You help them understand their diabetes between d
 and their first clinic follow-up.
 
 Rules:
-1. Answer only using the documents below. If they do not cover the question, say you are \
-not sure and suggest contacting the care team.
+1. Answer only using the documents below. Every fact, example, food, and number in your answer \
+must appear in them. Do not add examples from your own knowledge, even common ones. If the \
+documents name a general group (such as "fruits") without listing specific items, give what they \
+say about the group and do not list items yourself. If the \
+documents do not cover the question, say you are not sure and suggest contacting the care team.
 2. Never recommend a medication dose or tell the patient to change one.
 3. If the patient's personal action plan from their care team differs from these documents, \
 the action plan wins. Remind them to follow it.
@@ -56,7 +62,13 @@ with symptoms, confusion, vomiting, trouble breathing), tell them to contact the
 now, or call 911 if it is an emergency.
 5. If you need more context to answer well (for example, when they last ate or took insulin), \
 ask one short question first.
-6. Use plain language and short sentences. End each answer by naming the document it came from."""
+6. Answer the specific question asked, directly, in the first sentence. Only bring in a general \
+method (such as the Diabetes Plate) if the patient asks how to build a meal or the question cannot \
+be answered without it.
+7. If a "Team FAQs" document answers the question, base your answer on that FAQ answer, keep \
+its facts and numbers, and add from the other documents only what the FAQ leaves out.
+8. Use plain language and short sentences. End each answer by naming the document or documents \
+you actually used, exactly as written in their name attribute. Skip this for greetings or small talk."""
 
 CLASSIFIER_SYSTEM = f"""Sort the patient's latest message into topic categories for a diabetes \
 help chatbot. Use the earlier messages to understand follow-up questions such as "what about at night?".
@@ -67,6 +79,8 @@ Categories:
 Reply with only the category names, comma-separated, most relevant first, at most {MAX_CATEGORIES}. \
 Usually one category is enough. Add a second only if the latest message clearly asks about two topics. \
 Pick categories for the latest message, not for topics that came up earlier. \
+If the patient describes feeling unwell (fainting, confusion, dizziness, weakness) without a \
+reading that makes clear whether they are low or high, reply "low_blood_sugar, high_blood_sugar". \
 Reply "none" if no category fits."""
 
 
@@ -149,8 +163,20 @@ def classify(ask, history):
     return list(dict.fromkeys(picked))[:MAX_CATEGORIES], tin, tout
 
 
+def respond(ask, history):
+    """Answer the latest message in history. Returns (text, categories, tokens_in, tokens_out)."""
+    categories, cin, cout = classify(ask, history)
+    text, tin, tout = ask(build_system(categories), history[-ANSWER_HISTORY:], ANSWER_MAX_TOKENS)
+    text = text or "(no text returned, the reply may have been blocked)"
+    return text, categories, cin + tin, cout + tout
+
+
+def make_ask():
+    return make_gemini() if PROVIDER == "gemini" else make_groq()
+
+
 def main():
-    ask = make_gemini() if PROVIDER == "gemini" else make_groq()
+    ask = make_ask()
     history = []  # list of {"role": "user" | "assistant", "content": str}
     total_in = 0
     total_out = 0
@@ -167,22 +193,20 @@ def main():
 
         history.append({"role": "user", "content": user})
         try:
-            categories, cin, cout = classify(ask, history)
-            text, tin, tout = ask(build_system(categories), history[-ANSWER_HISTORY:], ANSWER_MAX_TOKENS)
+            text, categories, tin, tout = respond(ask, history)
         except Exception as e:
             history.pop()  # keep history alternating so the patient can simply ask again
             print(f"\n[The service had a problem: {type(e).__name__}. Please try again in a minute.]")
             print(f"[details: {str(e)[:300]}]\n")
             continue
 
-        text = text or "(no text returned, the reply may have been blocked)"
         history.append({"role": "assistant", "content": text})
 
-        total_in += cin + tin
-        total_out += cout + tout
+        total_in += tin
+        total_out += tout
 
         print(f"\nBot: {text}\n")
-        print(f"[topics: {', '.join(categories) or 'none'} | tokens this turn: in {cin + tin}, out {cout + tout}]\n")
+        print(f"[topics: {', '.join(categories) or 'none'} | tokens this turn: in {tin}, out {tout}]\n")
 
     print(f"\nSession total: in {total_in}, out {total_out}")
 

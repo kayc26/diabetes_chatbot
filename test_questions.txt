@@ -1,0 +1,28 @@
+# One test per line: expected topics | question
+# Expected topics are folder names from kb_curated/, comma-separated, or "none".
+# A test passes on routing if the bot picks every expected topic (extra topics are allowed).
+# Answers still need a human read: check them against the sources in the report.
+
+# Team FAQs
+food | I am still hungry between meals. How do I fix that?
+food | How many carbohydrates should I eat per day?
+food | How can I increase my protein intake?
+food | What beverages can I drink?
+food | What fruit can I eat?
+food | Food is expensive. What can I eat that is healthy?
+food | What protein shakes can I have?
+high_blood_sugar | What do I do when I have a high blood sugar (>250 mg/dL)?
+high_blood_sugar | Why is my blood sugar high?
+food | What snacks can I have with diabetes?
+food | Do I need a bedtime snack?
+insulin_devices | When do I take my insulin with meals?
+food | Are there supplements I can take to lower my blood sugar?
+
+# Urgent symptoms
+low_blood_sugar, high_blood_sugar | I'm fainting
+low_blood_sugar, high_blood_sugar | I feel dizzy and confused
+low_blood_sugar | My sugar is 62 and I feel shaky, what do I do?
+high_blood_sugar | My sugar is 320 and I keep throwing up
+
+# Off topic
+none | What is the capital of France?
