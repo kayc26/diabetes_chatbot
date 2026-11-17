@@ -1,4 +1,6 @@
 Source: nutrition-faqs-new-v5-final-1-21-26
+Type: both
+
 
 Food & Nutrition FAQs
 This infographic is based on recommendations 

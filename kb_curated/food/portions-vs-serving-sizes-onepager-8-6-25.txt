@@ -1,4 +1,6 @@
 Source: portions-vs-serving-sizes-onepager-8-6-25
+Type: both
+
 
 When it comes to diabetes management, how much you eat is just as important as what you eat.  
 Do you know if you are eating a serving size or a portion size? The difference between them can  

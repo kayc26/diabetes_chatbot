@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 American Diabetes Association® | 13 
 Living with type 1 diabetes involves taking steps and making decisions throughout the day to manage it. Over time, 

@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 Managing High Blood 
 Glucose (Hyperglycemia)

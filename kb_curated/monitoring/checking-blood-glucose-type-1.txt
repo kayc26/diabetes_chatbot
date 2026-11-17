@@ -1,0 +1,127 @@
+Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
+
+10 | American Diabetes Association®
+Monitoring Blood Glucose
+Blood glucose monitoring tools give you the insights you need to make management decisions and spot issues early.
+T
+here are two main approaches:
+Continuous glucose monitors (CGMs) use 
+a wearable or implanted sensor to track 
+glucose levels in the fluid around your cells 
+(interstitial
+ 
+fluid).
+These show both the current level and glucose 
+trends throughout the day and night and over time.
+Glucose readings from a CGM reflect a delayed 5 
+minute (or longer) real-time blood glucose reading.
+Blood glucose meters (BGMs) measure blood 
+glucose with a test strip and require a drop of 
+blood for each reading.
+BGMs serve as a crucial backup for CGM users, 
+especially when symptoms don't align with CGM 
+readings. CGMs excel at alerting you to highs and 
+lows while showing patterns that fingersticks alone 
+might miss. Your healthcare team can guide you to 
+the best choice for your needs. 
+AID Systems
+Many people with type 1 diabetes use an automated insulin 
+delivery (AID) system. These systems link an insulin pump with 
+a continuous glucose monitor (CGM) and use software to adjust 
+insulin delivery automatically based on the CGM readings.
+AID systems can help reduce blood glucose ups and downs by 
+adjusting insulin delivery around the clock based on your CGM 
+data and the settings you and your healthcare team program 
+into the device.
+These systems automatically handle a lot of your background 
+insulin needs, but they still need your help for mealtime insulin and physical activity. For bigger meals, you tell 
+the system how many carbs you're eating (or
+ 
+pick "normal," "more," or "less") so it can give the right bolus of 
+insulin. For exercise or activity, you turn on exercise mode (or set a higher glucose target) before or during to 
+lower insulin delivery and help prevent low blood glucose.
+Backup Plans for Technology and Supplies
+Even trusted tools can have problems. Keeping extra supplies, such as spare insulin, batteries, and monitoring 
+supplies, on hand and having backup methods for checking blood glucose and delivering insulin will give you 
+peace of mind. Your healthcare team can help you create backup plans to meet your needs.
+VS
+American Diabetes Association® | 11 
+What to Expect
+Managing type 1 diabetes gets easier the more you practice, just like learning any new skill.
+Remember your goal isn’t perfect blood glucose levels. At first, you’ll start noticing how 
+your body reacts to insulin, food, exercise, and changes in your daily routine. Over
+ 
+time, 
+you’ll keep learning from what happens, try
+ 
+new ideas, and make small changes to help 
+keep your glucose levels steady and your routine and choices will flow more naturally. 
+Your healthcare team is always there to help you figure things out.
+Understanding Your Numbers
+Your blood glucose readings provide insights into how your body handles insulin 
+and responds to other factors throughout the day and night. They
+ 
+show how food, 
+activity, stress, illness, medicine, and timing all work together and affect your blood 
+glucose levels. Spotting patterns turns simple data into helpful information for 
+safer, steadier care.
+Common Times to Check Blood Glucose
+Whether you use a continuous glucose monitor (CGM) or a blood glucose meter (BGM), paying attention to your 
+numbers can help you spot patterns. A CGM shows how your glucose changes throughout the day and night. 
+With a blood glucose meter, checking at the same times each day can help you notice patterns over time.
+Look for patterns:
+Sleep: 
+Before bedtime and 
+when you wake up
+Eating: 
+Before meals and 
+two hours after
+Symptoms: 
+Whenever you sense symptoms 
+of low or high blood glucose
+Exercise: 
+Before and after 
+physical activity
+Check & Chat
+One number tells part of the story, but patterns over time reveal more. If you use a CGM, your healthcare team 
+might talk with you about time in range (TIR), which is the amount of time your blood glucose stays in your 
+personalized target range.
+For most adults, the target range is 70–180 mg/dL. Work with your healthcare team to find your target range 
+that meets your needs. Target ranges also differ for children and teens, as well as during pregnancy.
+
+12 | American Diabetes Association®
+Why Blood Glucose Changes
+Blood glucose can be affected by many different factors that may include:
+Check & Chat
+All of these factors affect your blood glucose, so work with your healthcare team to identify patterns and 
+adjust as needed.
+Hormone and body 
+changes: 
+Puberty, growth spurts, 
+menopause, other age-
+related changes, menstrual 
+cycles, and pregnancy
+Decisions and habits: 
+Planning, choices, and 
+everyday actions
+Environment and conditions: 
+Weather, travel, altitude, and 
+changes in routine
+Food and drink: 
+What, how much, 
+and when you eat
+Physical activity: 
+Type, effort, length, and 
+timing relative to eating 
+and taking insulin
+Medications and insulin: 
+Other medications, 
+insulin doses, timing, 
+delivery method, and 
+absorption rate
+Sleep, stress, and illness:  
+Rest quality, emotions, 
+sickness, and feeling 
+“off”

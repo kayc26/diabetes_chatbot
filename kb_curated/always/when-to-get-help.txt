@@ -1,69 +1,37 @@
-Source: guide-for-people-with-type_1-diabetes
+Source: guide_for_people_with_type_2_diabetes
+Type: 2
 
-American Diabetes Association® | 9 
-Being Prepared and 
-Staying
- 
-Safe
-Living with type 1 diabetes means being ready for changes in your blood glucose levels. Many days feel steady, 
-but unpla
-nned changes to your day, such as illness, missed meals, extra physical activity, stress, or problems 
-with the devices you use to manage diabetes, can sometimes lead to blood glucose levels outside of your target 
-range. A few simple steps can help you adjust and manage with confidence.
-Staying Prepared
-When to Seek Immediate Help
-While following your treatment plan is important, sometimes you 
-need to contact your doctor or call
- 
-911. This
- 
-includes when:
-• Y
-our blood glucose stays low and doesn’t improve after treating it 
-(2-3 cycles or 30 to 45 minutes) 
-• Y
-our blood glucose remains very high for several
- 
-hours
-• Y
-ou have elevated blood or urine ketones
-• Y
-ou’re vomiting and can’t keep fluids down
-• Y
-our breathing becomes rapid or labored
-• Y
-ou feel confused or lose consciousness
-• Y
-ou don’t have access to insulin 
-• Y
-our insulin delivery system is not working
-If something doesn’t feel right, it’s always okay to reach out for help. 
-Getting prepared in small ways makes 
-surprises easier to
- 
-manage. 
-Keep these handy:
-• A blood glucose met
-er (BGM) and/or 
-continuous glucose monitor (CGM)
-• F
-ast-acting carbohydrates (hard candies, 
-glucose tablets, etc.) for treating lows
-• Gluc
-agon for treating severe lows
-• Supplies t
-o check ketones
-• Ba
-ckup insulin and insulin delivery 
-supplies
-• Emer
-gency contact information
-• A sick da
-y plan created in advance with 
-your healthcare team
-• Medic-a
-lert id bracelet
-Even a basic plan can ease worry when 
-blood glucose goes too high or
- 
-low.
+
+When to get help right away
+
+If your blood glucose levels stay high or you start feeling symptoms like nausea,
+vomiting, or confusion, contact your doctor right away. These could be signs of
+diabetic ketoacidosis (DKA), a serious complication of diabetes that occurs when your
+body produces a high amount of ketones due to a lack of insulin.
+
+Low blood glucose is when your blood glucose is too low, usually below 70 mg/dL. To
+treat low blood glucose use the Rule of 15. If your blood glucose is still low after
+you repeat it, contact your health care team.
+
+If you are at risk for low blood glucose, always carry a quick source of carbs, like
+glucose tablets or gels, in case your blood glucose drops too low. Talk to your health
+care team about how to prevent and treat low blood glucose. Also ask if you are at risk
+for severe hypoglycemia and need a prescription for glucagon.
+
+When you are sick
+
+Preparing in advance and knowing how to care for yourself when you are sick can help
+you manage your food, fluids, and medications. When you are sick, blood glucose levels
+can rise, even if you are eating less.
+
+- Check your blood glucose at least every four hours or as suggested by your health
+  care team.
+- Keep taking your diabetes medications, including insulin. You may need to adjust the
+  dose based on your blood glucose results.
+- Drink plenty of fluids to prevent dehydration. If you are unable to eat, you may need
+  to replace your usual meals with carbohydrate-containing fluids.
+
+Keeping your blood glucose in your target range helps prevent both short- and long-term
+health problems. Highs and lows can happen with changes in your living situation, food,
+activity, or medications, so regular monitoring and support from your health care team
+will help you stay healthy.

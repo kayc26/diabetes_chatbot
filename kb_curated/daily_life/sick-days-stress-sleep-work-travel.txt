@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 20 | American Diabetes Association®
 Type 1 diabetes touches every part of daily life. It is there at work, at school, 

@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 American Diabetes Association® | 23 
 Emotional 

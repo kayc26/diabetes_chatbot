@@ -1,159 +1,49 @@
-Source: guide-for-people-with-type_1-diabetes
+Source: guide_for_people_with_type_2_diabetes
+Type: 2
 
-American Diabetes Association® | 17 
-Physical Activity and Exercise
-People with type 1 diabetes participate in all kinds of physical activity—from everyday movement to competitive 
-sports. Being active through NEAT (Non-Exercise Activity Thermogenesis) means enjoying all your everyday 
-movements such as walking around the house, standing while doing tasks, fidgeting, gardening or taking the 
-stairs which naturally boost your energy, support better glucose control, and help you feel healthier every day. 
-Many professional athletes live with type 1 diabetes. Their stories show that it may take some extra planning and 
-effort, but you can absolutely reach your fitness level and goals. 
-Physical activity helps keep your heart healthy, improves how your body uses insulin, boosts your mood, and 
-helps you sleep better. It can also affect blood glucose in different ways depending on how long or how intense 
-your workout is. Learning how your body responds to different physical activity is an important part of managing 
-diabetes. 
-Here’s how different types of physical activity can help with your blood glucose:
-Aerobic activities  
-(walking, running, biking, or 
-swimming) usually lower your 
-blood glucose right away and 
-help keep it steadier for a 
-good
- 
-while.
-Strength training  
-(lifting weights or doing push-
-ups) might cause a small rise at 
-first, but then it often helps lower 
-your blood glucose later as your 
-muscles keep working hard.
-High-intensity workouts 
-(sprinting or fast sports) can 
-make your blood glucose go up 
-for a short time at the start, but 
-they usually bring it down nicely 
-for several hours afterward.
-The great thing is that exercise can keep your blood 
-glucose lower for 24 to 48 hours sometimes even up 
-to 72 hours! So, the more you move, the better your 
-body gets at using glucose and staying in range.
- Listen to Your Body: Finding 
-Movement that Works for You
-What matters most is noticing how your body 
-reacts to different kinds of movement and finding 
-a balance that feels realistic and sustainable for 
-you. Mixing up your activities—such as walking, 
-stretching, lifting weights, and biking—can help 
-support both your physical health and blood 
-glucose
- 
-management.
-Everyone’s body responds differently to 
-physical
- 
-activity. Checking your blood glucose 
-and paying attention to how you feel can help you 
-notice patterns and signs of low blood glucose. 
-This awareness can help you make informed 
-decisions about food, insulin, and
- 
-activity.
 
-18 | American Diabetes Association®
-Getting Started with Movement
-If you’re just getting started or want motivation to start without overdoing it, these ideas can help you build a 
-routine you can stick with and feel good about.
-Everyday Movement Matters
-Even short bursts of movement done regularly throughout the day can have big benefits for your health. 
-Choosing activities that feel enjoyable, flexible, and realistic will help make 
-them a natural part of your routine and support your overall wellbeing.
-The movement you do while living your daily life, such as walking around 
-the house, doing chores, standing more often, or gardening, all add up 
-and count, too.
-Physical activity, including movement, can make a big difference in your 
-overall health and blood glucose management, especially when done 
-regularly. Unlike
- 
-aerobic workouts or strength training, general activities 
-of daily living are usually lower in intensity and happen
- 
-throughout the 
-day. They can help keep your body and joints moving, improve how 
-well your insulin is used, and
- 
-make it easier to stay active without a 
-structured routine.
-Begin with movement 
-or physical activities 
-you enjoy, like 
-dancing, walking with 
-others, or swimming.
-Focus on being 
-consistent before 
-trying to do more.
-Note how your meals, 
-snacks, and insulin 
-timing affect your blood 
-glucose during physical 
-activity, and if you need 
-to, make adjustments 
-to help you stay in your 
-target range.
-You might find it easier 
-to set small, specific 
-goals, such as “I’ll take a 
-30-minute walk with my 
-friend after dinner five 
-days a week” to meet the 
-recommended 150 minutes 
-of activity each week.
-American Diabetes Association® | 19 
-Exercise Safety
-Before and during physical activity, check your blood 
-glucose (blood sugar) and pay attention to trends, 
-especially during longer or more intense exercise.
-Physical activity can sometimes cause blood glucose 
-to drop. If your blood glucose becomes low during 
-or after activity, the 15–15 rule can help. This means 
-having 15 grams of fast-acting carbohydrate, 
-waiting
- 
-15 minutes, and then checking your blood 
-glucose again to see if it has come back up.
-After physical activity in the evening or an intense 
-workout, keep checking your blood glucose for 
-several hours—sometimes even overnight—because 
-exercise can cause low blood glucose levels later on. 
-Talk with your healthcare team about whether you need 
-to make changes to your insulin doses before physical 
-activity to help prevent low blood glucose afterward.
-Physical activity may also cause blood glucose levels to rise. 
-This
- 
-can happen after high-intensity workouts or during times 
-of stress (physical and emotional). Drink water to stay hydrated and 
-check your blood glucose again later. Sometimes, levels that rise during 
-activity may come down on their own once you stop moving. If your blood 
-glucose stays high, follow your treatment plan or contact your healthcare 
-team. 
-Check & Chat
-With time, small adjustments, such as 
-changing when you take insulin, eat, or move, 
-can help physical activity feel safer, easier, 
-and
- 
-more
- 
-predictable.
-Trying different activities and noting how your blood 
-glucose responds can help you plan for next time.
-Remember, factors such as stress, illness, 
-hormones, and lack of sleep can affect blood 
-glucose levels, so your body may respond 
-differently from one workout to the next.
-As you learn your patterns, you and your healthcare 
-team can fine
--
-tune your plan to keep movement 
-both safe and enjoyable.
+Physical activity
 
+If you have concerns about what types of physical activity are right for you, talk with
+your health care team. They can help you create a safe and enjoyable plan based on your
+goals, interests, and abilities.
+
+Look into local programs at community centers, parks, senior centers, or wellness
+facilities. Many offer free or low-cost fitness options.
+
+Being active, along with reaching a healthy weight, eating well, managing stress, taking
+your medications, and getting support, all work together to help you manage type 2
+diabetes and stay healthy.
+
+How does physical activity improve my diabetes management and general health?
+
+Physical activity helps you manage your blood glucose (blood sugar) by improving how well
+your body uses insulin. It also supports weight loss goals and helps with your energy,
+mood, heart health, and stress. Even small amounts of movement, like walking or light
+housework, can make a big difference. Talk with your health care team about the best ways
+to get moving safely and stay active.
+
+How much physical activity should I do?
+
+Most adults with diabetes should aim for at least 150 minutes of moderate-intensity
+physical activity per week, such as brisk walking. That is about 30 minutes a day, five
+days a week. Also, try to move more and sit less throughout the day, limiting your time
+seated or inactive to 30 minutes if you can.
+
+Include both strength activities (light weights or resistance bands) and stretching
+(flexibility) sessions twice a week.
+
+If you are concerned about what activities are safe for you, talk to your health care
+team.
+
+Weight
+
+If weight loss is one of your goals, even losing a small amount of weight can be helpful.
+However, losing about 5-7% of your starting weight can improve your blood glucose (blood
+sugar) levels, blood pressure, and heart health. If you weigh 200 pounds, a 5-7% loss
+would be about 10-14 pounds. For many people, the best approach is to lose weight
+gradually, about 1-2 pounds per week. Work with your care team to see if this goal is
+right for you and how to reach it safely.
+
+Your food and activity plan can work together to help you lose about 5-7% of your
+starting weight, if that is one of your health goals.

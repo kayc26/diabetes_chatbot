@@ -1,4 +1,6 @@
 Source: Team FAQs
+Type: both
+
 
 Q: I am still hungry between meals. How do I fix that?
 A: Hunger between meals may mean your meals are not balanced enough. Try including a source of protein (such as eggs, chicken, fish, tofu, Greek yogurt, or beans), fiber (vegetables, fruit, whole grains, or beans), and healthy fats (nuts, seeds, avocado, or olive oil) at meals. Staying hydrated and eating on a regular schedule can also help control hunger.

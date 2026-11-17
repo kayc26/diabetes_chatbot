@@ -1,4 +1,6 @@
 Source: exercise_and_nutrition
+Type: both
+
 
 Patient version 
 Guidelines 

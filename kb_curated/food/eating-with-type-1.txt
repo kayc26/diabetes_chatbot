@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 14 | American Diabetes Association®
 Eating with Type 1 Diabetes

@@ -1,4 +1,6 @@
 Source: Team FAQs
+Type: both
+
 
 Q: What do I do when I have a high blood sugar (>250 mg/dL)?
 A: Drink water, follow your provider's instructions regarding diabetes medications or correction insulin if you have not taken insulin in the last 4 hours, and monitor your blood sugar. If your blood sugar remains very high, you are vomiting, have stomach pain, difficulty breathing, confusion, or positive ketones, seek medical attention immediately.

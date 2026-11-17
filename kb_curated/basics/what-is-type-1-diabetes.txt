@@ -1,4 +1,6 @@
 Source: guide-for-people-with-type_1-diabetes
+Type: 1
+
 
 4 | American Diabetes Association®
 There’s a lot to know and do to live well with type 1 diabetes—
